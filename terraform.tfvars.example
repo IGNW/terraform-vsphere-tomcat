@@ -1,0 +1,15 @@
+vsphere_server = "172.20.1.5"
+vsphere_user = "administrator@vsphere.local"
+vsphere_datacenter = "dc1"
+vsphere_datastore = "Primary"
+vsphere_compute_cluster = "cluster1"
+vsphere_network = "vm-network-1"
+hostname = "lamp"
+domain = "xyz.com"
+# ipv4_address = "172.20.4.99"
+# ipv4_netmask = "24"
+# ipv4_gateway = "172.20.4.1"
+num_cpus = 2
+memory_mb = 4000
+root_volume_size = 50
+disk_template = "ubuntu1604_template"
